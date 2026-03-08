@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
 import { FiPackage } from "react-icons/fi";
-import ClientPagination from "@/components/ClientPagination";
+import ClientPagination from "@/Components/ClientPagination";
 import { CategoryDialog } from "@/Components/CategoryDialog";
 import { useAppContext } from "@/store/store";
 import WishListIcon from "@/Components/WishListIcon";
@@ -204,3 +204,4 @@ const Categories = () => {
 };
 
 export default Categories;
+
