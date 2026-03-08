@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { ChevronDown, X } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/Components/ui/button";
 import {
   Dialog,
   DialogContent,
@@ -8,7 +8,7 @@ import {
   DialogTitle,
   DialogTrigger,
   DialogClose,
-} from "@/components/ui/dialog";
+} from "@/Components/ui/dialog";
 import Filter from "./Filter";
 const url = import.meta.env.VITE_ENDPOINT;
 
@@ -106,3 +106,4 @@ export function CategoryDialog({ allCategory, categoryName, setCategoryName , mi
     </Dialog>
   );
 }
+
