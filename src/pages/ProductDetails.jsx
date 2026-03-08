@@ -1,4 +1,3 @@
-import WishListIcon from "@/Components/WishListIcon";
 import { useAppContext } from "@/store/store";
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
@@ -242,3 +241,4 @@ const ProductDetails = () => {
 };
 
 export default ProductDetails;
+
