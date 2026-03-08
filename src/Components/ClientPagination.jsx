@@ -6,7 +6,7 @@ import {
   PaginationLink,
   PaginationNext,
   PaginationPrevious,
-} from "@/components/ui/pagination";
+} from "@/Components/ui/pagination";
 
 const ClientPagination = ({ page, totalPages, onPageChange }) => {
   if (!totalPages || totalPages <= 1) return null;
@@ -86,3 +86,4 @@ const ClientPagination = ({ page, totalPages, onPageChange }) => {
 };
 
 export default ClientPagination;
+
