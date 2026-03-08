@@ -6,7 +6,7 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@/components/ui/carousel";
+} from "@/Components/ui/carousel";
 import { useNavigate } from "react-router-dom";
 
 const url = import.meta.env.VITE_ENDPOINT;
@@ -109,3 +109,4 @@ const CarouselSection = () => {
 };
 
 export default CarouselSection;
+
